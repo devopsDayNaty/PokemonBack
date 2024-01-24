@@ -18,7 +18,7 @@ import fr.intiformation.service.PokemonService;
 
 @RestController
 @RequestMapping("pokemonapi")
-@CrossOrigin("http://localhost:4200")
+
 public class PokemonController {
 
 	@Autowired
